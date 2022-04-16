@@ -1,0 +1,5 @@
+n1 = input('digite algo: ')
+print('O item é alfanumérico?',n1.isalnum())
+print('O item é afabético?',n1.isalpha())
+print('O item é minúsculo?',n1.islower())
+print('O item está em maiúsculo?',n1.isupper())
